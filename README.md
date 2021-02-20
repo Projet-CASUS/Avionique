@@ -13,5 +13,5 @@ https://cdn-learn.adafruit.com/downloads/pdf/adafruit-micro-sd-breakout-board-ca
 ## MPU-6050 (Gyroscope)
 https://invensense.tdk.com/wp-content/uploads/2015/02/MPU-6000-Datasheet1.pdf
 
-##MPL3115A2
+## MPL3115A2
 https://cdn.sparkfun.com/datasheets/Sensors/Pressure/MPL3115A2.pdf
