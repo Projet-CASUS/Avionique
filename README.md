@@ -7,3 +7,6 @@ https://altusmetrum.org/TeleBT/
 ## BMP280
 https://www.bosch-sensortec.com/products/environmental-sensors/pressure-sensors/bmp280/
 
+## Micro-SD card
+https://cdn-learn.adafruit.com/downloads/pdf/adafruit-micro-sd-breakout-board-card-tutorial.pdf?timestamp=1613847927
+
