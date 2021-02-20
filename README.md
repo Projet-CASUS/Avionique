@@ -19,3 +19,5 @@ https://cdn.sparkfun.com/datasheets/Sensors/Pressure/MPL3115A2.pdf
 ## StratoLoggerCF
 http://www.perfectflite.com/Downloads/StratoLoggerCF%20manual.pdf
 
+## STM32
+https://www.st.com/en/evaluation-tools/nucleo-f429zi.html
