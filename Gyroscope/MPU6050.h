@@ -78,10 +78,12 @@ class MPU6050
 public:
     MPU6050(PinName sda_pin,PinName scl_pin,int address,uint8_t ii2_speed=3);
     void set_iic_Speed(uint8_t new_speed);
-    void getAllReadings();
     int32_t operator[] (int);
     bool begin(uint8_t c_range = MPU6050_DIV_0,uint8_t f_range = MPU6050_BAND_21_HZ,uint8_t g_range = MPU6050_RANGE_250_DEG,uint8_t a_range=MPU6050_RANGE_2_G);
     int32_t* calibration(int axe);
+    int32_t getTemperature();
+    int32_t getAccel(int index=0);
+    int32_t getGyro(int index=0);
 private:
     void activate();
     I2C i2cBus;
@@ -93,9 +95,7 @@ private:
     void writeThenReadRegister(int register_To_Read,char* data,int size);
     void writeRegister(char* data,int size,bool stop = false);
     void setConfiguration(char c_range,char f_range,char g_range,char a_range);
-    int32_t getTemperature();
-    int32_t getAccel(int index=0);
-    int32_t getGyro(int index=0);
+    void getAllReadings();
     void setConfigRegister(char registerCode,char* code);
     int32_t average(int32_t* values,int length);
 };
